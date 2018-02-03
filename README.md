@@ -48,7 +48,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **TransA: An Adaptive Approach for Knowledge Graph Embedding.**
 *Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu.* arXiv 2015. [paper](https://arxiv.org/pdf/1509.05490.pdf)
 
-1. **TransG: Learning to Represent Knowledge Graphs with Gaussian Embedding.**
+1. **KG2E: Learning to Represent Knowledge Graphs with Gaussian Embedding.**
 *Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao.* CIKM 2015. [paper](https://pdfs.semanticscholar.org/941a/d7796cb67637f88db61e3d37a47ab3a45707.pdf)
 
 1. **DistMult: Embedding Entities and Relations for Learning and Inference in Knowledge Bases.**
