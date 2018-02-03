@@ -81,7 +81,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **TKRL: Representation Learning of Knowledge Graphs with Hierarchical Types.**
 *Ruobing Xie, Zhiyuan Liu, Maosong Sun.* IJCAI 2016. [paper](http://www.thunlp.org/~lzy/publications/ijcai2016_tkrl.pdf) [code](https://github.com/thunlp/TKRL)
 
-1. **STransE: a novel embedding model of entities and relationships in knowledge bases.**
+1. **STransE: A Novel Embedding Model of Entities and Relationships in Knowledge Bases.**
 *Dat Quoc Nguyen, Kairit Sirts, Lizhen Qu and Mark Johnson.* NAACL-HLT 2016. [paper](https://arxiv.org/pdf/1606.08140) [code](https://github.com/datquocnguyen/STransE)
 
 1. **GAKE: Graph Aware Knowledge Embedding.**
