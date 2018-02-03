@@ -22,7 +22,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 ### Journal and Conference papers:
 
 1. **RESCAL: A Three-Way Model for Collective Learning on Multi-Relational Data.**
-*Nickel Maximilian, Tresp Volker, Kriegel Hans-Peter.* ICML 2011. [paper](http://www.cip.ifi.lmu.de/~nickel/data/) [code](https://github.com/thunlp/OpenKE)
+*Nickel Maximilian, Tresp Volker, Kriegel Hans-Peter.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
 
 1. **SE: Learning Structured Embeddings of Knowledge Bases.**
 *Antoine Bordes, Jason Weston, Ronan Collobert, Yoshua Bengio.* AAAI 2011. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/download/3659/3898)
@@ -43,7 +43,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, Xuan Zhu.* AAAI 2015. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9571/9523/) [KB2E](https://github.com/thunlp/KB2E) [OpenKE](https://github.com/thunlp/OpenKE)
 
 1. **TransD: Knowledge Graph Embedding via Dynamic Mapping Matrix.**
-*Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, Jun Zhao.* ACL 2015. [paper](http://www.aclweb.org/anthology/P15-106) [KB2E](https://github.com/thunlp/KB2E) [OpenKE](https://github.com/thunlp/OpenKE)
+*Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, Jun Zhao.* ACL 2015. [paper](http://anthology.aclweb.org/P/P15/P15-1067.pdf) [KB2E](https://github.com/thunlp/KB2E) [OpenKE](https://github.com/thunlp/OpenKE)
 
 1. **TransA: An Adaptive Approach for Knowledge Graph Embedding.**
 *Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu.* arXiv 2015. [paper](https://arxiv.org/pdf/1509.05490.pdf)
