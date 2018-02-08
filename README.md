@@ -108,3 +108,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 
 1. **IPTransE: Iterative Entity Alignment via Joint Knowledge Embeddings.**
 *Hao Zhu, Ruobing Xie, Zhiyuan Liu, Maosong Sun.* IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/0595.pdf) [code](https://github.com/thunlp/IEAJKE)
+
+1. **On the Equivalence of Holographic and Complex Embeddings for Link Prediction.**
+*Katsuhiko Hayashi, Masashi Shimbo.* ACL 2017. [paper](https://aclweb.org/anthology/P/P17/P17-2088.pdf) 
+
