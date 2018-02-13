@@ -49,7 +49,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu.* arXiv 2015. [paper](https://arxiv.org/pdf/1509.05490.pdf)
 
 1. **KG2E: Learning to Represent Knowledge Graphs with Gaussian Embedding.**
-*Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao.* CIKM 2015. [paper](https://pdfs.semanticscholar.org/941a/d7796cb67637f88db61e3d37a47ab3a45707.pdf)
+*Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao.* CIKM 2015. [paper](https://pdfs.semanticscholar.org/941a/d7796cb67637f88db61e3d37a47ab3a45707.pdf) [code](http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/code/cikm15_he_code.zip)
 
 1. **DistMult: Embedding Entities and Relations for Learning and Inference in Knowledge Bases.**
 *Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, Li Deng.* ICLR 2015. [paper](https://arxiv.org/pdf/1412.6575) [code](https://github.com/thunlp/OpenKE)
