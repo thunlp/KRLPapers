@@ -76,7 +76,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Yankai Lin, Zhiyuan Liu, Maosong Sun.* IJCAI 2016. [paper](http://nlp.csai.tsinghua.edu.cn/~lyk/publications/ijcai2016_krear.pdf) [code](https://github.com/thunlp/KR-EAR) 
 
 1. **TranSparse: Knowledge Graph Completion with Adaptive Sparse Transfer Matrix.**
-*Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao.* AAAI 2016. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693) [code](https://github.com/thunlp/KB2E)
+*Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao.* AAAI 2016. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693) [code](https://github.com/thunlp/Fast-TransX)
 
 1. **TKRL: Representation Learning of Knowledge Graphs with Hierarchical Types.**
 *Ruobing Xie, Zhiyuan Liu, Maosong Sun.* IJCAI 2016. [paper](http://www.thunlp.org/~lzy/publications/ijcai2016_tkrl.pdf) [code](https://github.com/thunlp/TKRL)
