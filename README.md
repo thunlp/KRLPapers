@@ -112,3 +112,5 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **On the Equivalence of Holographic and Complex Embeddings for Link Prediction.**
 *Katsuhiko Hayashi, Masashi Shimbo.* ACL 2017. [paper](https://aclweb.org/anthology/P/P17/P17-2088.pdf) 
 
+1. **KBGAN: Adversarial Learning for Knowledge Graph Embeddings.**
+*Liwei Cai, William Yang Wang.* NAACL-HLT 2018. [paper](https://arxiv.org/pdf/1711.04071.pdf) [code](https://github.com/cai-lw/KBGAN)
