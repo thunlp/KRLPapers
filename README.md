@@ -69,6 +69,9 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **ComplEx: Complex Embeddings for Simple Link Prediction.**
 *Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier and Guillaume Bouchard.* ICML 2016. [paper](http://proceedings.mlr.press/v48/trouillon16.pdf) [code](https://github.com/ttrouill/complex) [OpenKE](https://github.com/thunlp/OpenKE)
 
+1. **ComplEx extension: Knowledge Graph Completion via Complex Tensor Factorization.**
+*Théo Trouillon, Christopher R. Dance, Johannes Welbl, Sebastian Riedel, Éric Gaussier, Guillaume Bouchard.* JMLR 2017. [paper](https://arxiv.org/pdf/1702.06879.pdf) [code](https://github.com/ttrouill/complex) [OpenKE](https://github.com/thunlp/OpenKE)
+
 1. **HolE: Holographic Embeddings of Knowledge Graphs.**
 *Maximilian Nickel, Lorenzo Rosasco, Tomaso A. Poggio.* AAAI 2016. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12484/11828) [code](https://github.com/mnick/holographic-embeddings) [OpenKE](https://github.com/thunlp/OpenKE)
 
