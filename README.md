@@ -23,97 +23,123 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 
 1. **RESCAL: A Three-Way Model for Collective Learning on Multi-Relational Data.**
 *Nickel Maximilian, Tresp Volker, Kriegel Hans-Peter.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
+    > RESCAL is a tensor factorization approach to knowledge representation learning, which is able to perform collective learning via the latent components of the factorization.
 
 1. **SE: Learning Structured Embeddings of Knowledge Bases.**
 *Antoine Bordes, Jason Weston, Ronan Collobert, Yoshua Bengio.* AAAI 2011. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/download/3659/3898)
+	> SE assumes that the head and tail entities are similar in a relation-dependent subspace, where each relation is represented by two different matrices.
 
 1. **LFM: A Latent Factor Model for Highly Multi-relational Data.**
 *Rodolphe Jenatton, Nicolas L. Roux, Antoine Bordes, Guillaume R. Obozinski.* NIPS 2012. [paper](http://papers.nips.cc/paper/4744-a-latent-factor-model-for-highly-multi-relational-data.pdf)
+	> LFM is based on a bilinear structure, which captures variouts orders of interaction of the data, and also shares sparse latent factors across different relations.
 
 1. **NTN: Reasoning With Neural Tensor Networks for Knowledge Base Completion.**
 *Richard Socher, Danqi Chen, Christopher D. Manning, Andrew Ng.* NIPS 2013. [paper](http://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf)
+	> NTN is a neural network which allows mediated interaction of entity vectors via a tensor. NTN might be the most expressive model to date, but it is not sufficiently simple and efficient to handle large-scale KGs.
 
 1. **TransE: Translating Embeddings for Modeling Multi-relational Data.**
 *Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko.*  NIPS 2013. [paper](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf) [code](https://github.com/thunlp/OpenKE)
+	> TransE is the first model to introduce translation-based embedding, which interprets relations as the translations operating on entities.
 
 1. **TransH: Knowledge Graph Embedding by Translating on Hyperplanes.**
 *Zhen Wang, Jianwen Zhang, Jianlin Feng, Zheng Chen.* AAAI 2014. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8531/8546) [code](https://github.com/thunlp/OpenkE)
+	> To preserve the mapping propertities of 1-N/N-1/N-N relations, TransH inperprets a relation as a translating operation on a hyperplane. In addition, TransH proposes "bern.", a strategy of constructing negative labels.
 
 1. **TransR & CTransR: Learning Entity and Relation Embeddings for Knowledge Graph Completion.**
 *Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, Xuan Zhu.* AAAI 2015. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9571/9523/) [KB2E](https://github.com/thunlp/KB2E) [OpenKE](https://github.com/thunlp/OpenKE)
+	> An entity may have multiple aspects and various relations may focus on different aspects of entites. TransR first projects entities from entity space to corresponding relation space and then builds translations between projected entities.
+	CTransR extends TransR by clustering diverse head-tail entity pairs into groups and learning distinct relation vectors for each group, which is the initial exploration for modeling internal correlations within each relation type.
 
 1. **TransD: Knowledge Graph Embedding via Dynamic Mapping Matrix.**
 *Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, Jun Zhao.* ACL 2015. [paper](http://anthology.aclweb.org/P/P15/P15-1067.pdf) [KB2E](https://github.com/thunlp/KB2E) [OpenKE](https://github.com/thunlp/OpenKE)
+	> TransD constructs a dynamic mapping matrix for each entity-relation pair by considering the diversity of entities and relations simultaneously. Compared with TransR/CTransR, TransD has fewer parameters and has no matrix vector multiplication.
 
 1. **TransA: An Adaptive Approach for Knowledge Graph Embedding.**
 *Han Xiao, Minlie Huang, Hao Yu, Xiaoyan Zhu.* arXiv 2015. [paper](https://arxiv.org/pdf/1509.05490.pdf)
+	> Applying elliptial equipotential hypersurfaces and weighting specific feature dimensions for a relation, TransA can model complex entities and relations.
 
 1. **KG2E: Learning to Represent Knowledge Graphs with Gaussian Embedding.**
 *Shizhu He, Kang Liu, Guoliang Ji and Jun Zhao.* CIKM 2015. [paper](https://pdfs.semanticscholar.org/941a/d7796cb67637f88db61e3d37a47ab3a45707.pdf) [code](http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/code/cikm15_he_code.zip)
+	> Different entities and relations may contain different certainties, which represent the confidence for indicating the semantic when scoring a triple. KG2E represents each entity/relation by a Gaussion distribution, where the mean denotes its position and the covariance presents its certainty.
 
 1. **DistMult: Embedding Entities and Relations for Learning and Inference in Knowledge Bases.**
 *Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, Li Deng.* ICLR 2015. [paper](https://arxiv.org/pdf/1412.6575) [code](https://github.com/thunlp/OpenKE)
+	> DistMult is based on the bilinear model where each relation is represented by a diagonal rather than a full matrix. DistMult enjoys the same scalable property as TransE and it achieves superior performance over TransE.
 
 1. **PTransE: Modeling Relation Paths for Representation Learning of Knowledge Bases.**
 *Yankai Lin, Zhiyuan Liu, Huanbo Luan, Maosong Sun, Siwei Rao, Song Liu.* EMNLP 2015. [paper](https://arxiv.org/pdf/1506.00379.pdf) [code](https://github.com/thunlp/KB2E)
+	> Multi-step relation paths contain rich inference patterns between entities. PTransE considers relation paths as translations between entities and designs an excellent algorithm to measure the reliablity of relation paths. Experiment shows PTransE achieves outstanding improvements on KBC and RE tasks.
 
 1. **RTransE: Composing Relationships with Translations.**
 *Alberto García-Durán, Antoine Bordes, Nicolas Usunier.* EMNLP 2015. [paper](http://www.aclweb.org/anthology/D15-1034.pdf)
+	> RTransE learns to explicitly model composition of relationships via the addition of their corresponding translations vectors. In addition, the experiments include a new evaluation protocal, in which the model answers questions related to compositions of relations directly.
 
 1. **ManifoldE: From One Point to A Manifold: Knowledge Graph Embedding For Precise Link Prediction.**
 *Han Xiao, Minlie Huang and Xiaoyan Zhu.* IJCAI 2016. [paper](https://arxiv.org/pdf/1512.04792.pdf)
+	> ManifoldE expands point-wise modeling in the translation-based principle to manifold-wise modeling, thus overcoming the issue of over-strict geometric form and achieving remarkable improvements for precise link prediction.
 
 1. **TransG: A Generative Mixture Model for Knowledge Graph Embedding.**
 *Han Xiao, Minlie Huang, Xiaoyan Zhu.* ACL 2016. [paper](http://www.aclweb.org/anthology/P16-1219) [code](https://github.com/BookmanHan/Embedding)
+	> A relation in knowledge graph may have different meanings revealed by the associated entity pairs. TransG generates multiple translation components for a relation via a Bayesian non-parametric infinite mixture model.
 
 1. **ComplEx: Complex Embeddings for Simple Link Prediction.**
 *Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier and Guillaume Bouchard.* ICML 2016. [paper](http://proceedings.mlr.press/v48/trouillon16.pdf) [code](https://github.com/ttrouill/complex) [OpenKE](https://github.com/thunlp/OpenKE)
+	> ComplEx extends DistMult by introducing complex-valued embeddings so as to better model asymmetric relations. It is proved that HolE is subsumed by ComplEx as a special case.
 
 1. **ComplEx extension: Knowledge Graph Completion via Complex Tensor Factorization.**
 *Théo Trouillon, Christopher R. Dance, Johannes Welbl, Sebastian Riedel, Éric Gaussier, Guillaume Bouchard.* JMLR 2017. [paper](https://arxiv.org/pdf/1702.06879.pdf) [code](https://github.com/ttrouill/complex) [OpenKE](https://github.com/thunlp/OpenKE)
 
 1. **HolE: Holographic Embeddings of Knowledge Graphs.**
 *Maximilian Nickel, Lorenzo Rosasco, Tomaso A. Poggio.* AAAI 2016. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12484/11828) [code](https://github.com/mnick/holographic-embeddings) [OpenKE](https://github.com/thunlp/OpenKE)
+	> HolE employs circular correlations to create compositional representations. HolE can capture rich interactions but simultaneously remains efficient to compute.
 
 1. **KR-EAR: Knowledge Representation Learning with Entities, Attributes and Relations.**
 *Yankai Lin, Zhiyuan Liu, Maosong Sun.* IJCAI 2016. [paper](http://nlp.csai.tsinghua.edu.cn/~lyk/publications/ijcai2016_krear.pdf) [code](https://github.com/thunlp/KR-EAR) 
+	> Existing KG-relations can be divided into attributes and relations, which exhibit rather distinct characteristics. KG-EAR is a KR model with entities, attributes and relations, which encodes the correlations between entity descriptions.
 
 1. **TranSparse: Knowledge Graph Completion with Adaptive Sparse Transfer Matrix.**
 *Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao.* AAAI 2016. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11982/11693) [code](https://github.com/thunlp/Fast-TransX)
+	> The entities and relations in a knowledge graph are heterogeneous and unbalanced. To overcome the heterogeneity, TranSparse uses sparse matrices to model the relations. To deal with the problem of imbalance of relations, each relation has two separate sparse transfer matrices for head and tail entity.
 
 1. **TKRL: Representation Learning of Knowledge Graphs with Hierarchical Types.**
 *Ruobing Xie, Zhiyuan Liu, Maosong Sun.* IJCAI 2016. [paper](http://www.thunlp.org/~lzy/publications/ijcai2016_tkrl.pdf) [code](https://github.com/thunlp/TKRL)
+	> Entities should have multiple representations in different types. TKRL is the first attempt to capture  the hierarchical types information, which is significant to KRL.
+
+1. **TEKE: Text-Enhanced Representation Learning for Knowledge Graph.**
+*Zhigang Wang, Juan-Zi Li.* IJCAI 2016. [paper](https://www.ijcai.org/Proceedings/16/Papers/187.pdf)
+	> TEKE incorporates the rich textual content information to expand the semantic structure of the knowledge graph. Thus, each relation is enabled to own different representations for different head and tail entities to better handle 1-N/N-1/N-N relations. TEKE handle the problems of low performance on 1-N/N-1/N-N1 relations and KG sparseness.
 
 1. **STransE: A Novel Embedding Model of Entities and Relationships in Knowledge Bases.**
 *Dat Quoc Nguyen, Kairit Sirts, Lizhen Qu and Mark Johnson.* NAACL-HLT 2016. [paper](https://arxiv.org/pdf/1606.08140) [code](https://github.com/datquocnguyen/STransE)
+	> STransE is a simple combination of the SE and TransE model, using two projection matrices and one translation vector to represent each relation. STransE produces competitive results on link prediction evaluations.
 
 1. **GAKE: Graph Aware Knowledge Embedding.**
 *Jun Feng, Minlie Huang, Yang Yang, Xiaoyan Zhu.* COLING 2016. [paper](http://yangy.org/works/gake/gake-coling16.pdf) [code](https://github.com/JuneFeng/GAKE)
+	> Regarding a knowledge base as a directed graph rather than independent triples, GAKE utilizes graph context (neighbor/path/edge context) to learn knowledge representions. Furthermore, GAKE designs an attention mechanism to learn representitive powers of different subjects.
 
 1. **DKRL: Representation Learning of Knowledge Graphs with Entity Descriptions.**
 *Ruobing Xie, Zhiyuan Liu, Jia Jia, Huanbo Luan, Maosong Sun.* AAAI 2016. [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12216/12004) [code](https://github.com/thunlp/DKRL)
+	> DKRL takes advantages of entity descriptions to learn knowledge representations. Outstanding performances under the zero-shot setting indicate that DKRL is capable of building representations for novel entities according to their descriptions. 
 
 1. **ProPPR: Learning First-Order Logic Embeddings via Matrix Factorization.**
-*William Yang Wang, William W. Cohen.* IJCI 2016. [paper](https://www.cs.ucsb.edu/~william/papers/ijcai2016.pdf)
+*William Yang Wang, William W. Cohen.* IJCAI 2016. [paper](https://www.cs.ucsb.edu/~william/papers/ijcai2016.pdf)
+	> ProPPR is the first foraml study to investigate the problem of learning low-dimensional first-order logic embeddings from scratch, while scaling formula embeddings based probabilistic logic reasoning to large knowledge graphs.
 
 1. **SSP: Semantic Space Projection for Knowledge Graph Embedding with Text Descriptions.**
 *Han Xiao, Minlie Huang, Lian Meng, Xiaoyan Zhu.* AAAI 2017. [paper](http://www.aaai.org/Conferences/AAAI/2017/PreliminaryPapers/14-XiaoH-14306.pdf)
+	> SSP models the strong correlatons between triples and the textual correlations by performing the embedding process in a sementic improvements against the state-of-the-art baselines.
 
 
 1. **ProjE: Embedding Projection for Knowledge Graph Completion.**
 *Baoxu Shi, Tim Weninger.* AAAI 2017. [paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14279/13906) [code](https://github.com/bxshi/ProjE)
+	> ProjE views the KGC task as a ranking problem and projects candidate-entities onto a vector representing a combined embedding of the known parts of an input triple. Besides, ProjE optimizes a ranking loss of the list of candidate-entities collectively. ProjE can be viewed as a simplified version of NTN.
 
 1. **ANALOGY: Analogical Inference for Multi-relational Embeddings.**
 *Hanxiao Liu, Yuexin Wu, Yiming Yang.* ICML 2017. [paper](https://arxiv.org/pdf/1705.02426.pdf) [code](https://github.com/mana-ysh/knowledge-graph-embeddings)
+	> Analogical inference is of greate use to knowledge base completion. ANALOGY models analogical structure in knowledge embedding. In addition, it is proved that DistMult, HolE and ComplEx are special cases of ANALOGY.
 
 1. **IKRL: Image-embodied Knowledge Representation Learning.**
 *Ruobing Xie, Zhiyuan Liu, Tat-Seng Chua, Huan-Bo Luan, Maosong Sun.* IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/0438.pdf) [code](https://github.com/xrb92/IKRL)
+	> IKRL is the first attemp to combine images with knowledge graphs for KRL. Its promising performances indicate the significance of visual information for KRL.
 
-1. **IPTransE: Iterative Entity Alignment via Joint Knowledge Embeddings.**
-*Hao Zhu, Ruobing Xie, Zhiyuan Liu, Maosong Sun.* IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/0595.pdf) [code](https://github.com/thunlp/IEAJKE)
 
-1. **On the Equivalence of Holographic and Complex Embeddings for Link Prediction.**
-*Katsuhiko Hayashi, Masashi Shimbo.* ACL 2017. [paper](https://aclweb.org/anthology/P/P17/P17-2088.pdf) 
-
-1. **KBGAN: Adversarial Learning for Knowledge Graph Embeddings.**
-*Liwei Cai, William Yang Wang.* NAACL-HLT 2018. [paper](https://arxiv.org/pdf/1711.04071.pdf) [code](https://github.com/cai-lw/KBGAN)
