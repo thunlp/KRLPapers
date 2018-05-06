@@ -8,16 +8,16 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 ### Survey papers:
 
 1. **Representation Learning: A Review and New Perspectives.**
-*Yoshua Bengio, Aaron Courville, and Pascal Vincent.* IEEE 2013. [paper](https://arxiv.org/pdf/1206.5538)
+*Yoshua Bengio, Aaron Courville, and Pascal Vincent.* TPAMI 2013. [paper](https://arxiv.org/pdf/1206.5538)
 
 1. **Knowledge Representation Learning: A Review. (In Chinese)**
-*Zhiyuan Liu, Maosong Sun, Yankai Lin, Ruobing Xie.* 2016. [paper](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3099)
+*Zhiyuan Liu, Maosong Sun, Yankai Lin, Ruobing Xie.* 计算机研究与发展 2016. [paper](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3099)
 
 1. **A Review of Relational Machine Learning for Knowledge Graphs.**
-*Maximilian Nickel, Kevin Murphy, Volker Tresp, Evgeniy Gabrilovich.* IEEE 2016. [paper](https://arxiv.org/pdf/1503.00759.pdf)
+*Maximilian Nickel, Kevin Murphy, Volker Tresp, Evgeniy Gabrilovich.* Proceedings of the IEEE 2016. [paper](https://arxiv.org/pdf/1503.00759.pdf)
 
 1. **Knowledge Graph Embedding: A Survey of Approaches and Applications.**
-*Quan Wang, Zhendong Mao, Bin Wang, Li Guo.* IEEE 2017.  [paper](http://ieeexplore.ieee.org/abstract/document/8047276/)
+*Quan Wang, Zhendong Mao, Bin Wang, Li Guo.* TKDE 2017.  [paper](http://ieeexplore.ieee.org/abstract/document/8047276/)
 
 ### Journal and Conference papers:
 
