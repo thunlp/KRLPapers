@@ -142,4 +142,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Ruobing Xie, Zhiyuan Liu, Tat-Seng Chua, Huan-Bo Luan, Maosong Sun.* IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/0438.pdf) [code](https://github.com/xrb92/IKRL)
 	> IKRL is the first attemp to combine images with knowledge graphs for KRL. Its promising performances indicate the significance of visual information for KRL.
 
+1. **RUGE: Knowledge Graph Embedding with Iterative Guidance from Soft Rules.**
+*Shu Guo, Quan Wang, Lihong Wang, Bin Wang, Li Guo.* AAAI 2018. [paper](https://arxiv.org/pdf/1711.11231.pdf) [code](https://github.com/iieir-km/RUGE)
+	> RUGE is the first work that models interactions between embedding learning and logical inference in a principled framework. It enables an embedding model to learn simultaneously from labeled triples, unlabeled triples and soft rules in an iterative manner.
 
