@@ -164,6 +164,6 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 
 1. **ConvKB: A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network.**
 *Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053)
-
+	> ConvKB applies the global relationships among same dimensional entries of the entity and relation embeddings, so that ConvKB generalizes the transitional characteristics in the transition-based embedding models. In addition, ConvKB is evaluated on WN18RR and FB15K237.
 
 
