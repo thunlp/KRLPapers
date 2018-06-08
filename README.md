@@ -142,7 +142,28 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Ruobing Xie, Zhiyuan Liu, Tat-Seng Chua, Huan-Bo Luan, Maosong Sun.* IJCAI 2017. [paper](https://www.ijcai.org/proceedings/2017/0438.pdf) [code](https://github.com/xrb92/IKRL)
 	> IKRL is the first attemp to combine images with knowledge graphs for KRL. Its promising performances indicate the significance of visual information for KRL.
 
+1. **ITransF: An Interpretable Knowledge Transfer Model for Knowledge Base Completion.**
+*Qizhe Xie, Xuezhe Ma, Zihang Dai, Eduard Hovy.* ACL 2017. [paper](https://arxiv.org/pdf/1704.05908.pdf)
+	> Equipped with a sparse attention mechanism, ITransF discovers hidden concepts of relations and transfer statistical strength through the sharing of concepts. Moreover, the learned associations between relations and concepts, which are represented by sparse attention vectors, can be interpreted easily.
+
 1. **RUGE: Knowledge Graph Embedding with Iterative Guidance from Soft Rules.**
 *Shu Guo, Quan Wang, Lihong Wang, Bin Wang, Li Guo.* AAAI 2018. [paper](https://arxiv.org/pdf/1711.11231.pdf) [code](https://github.com/iieir-km/RUGE)
 	> RUGE is the first work that models interactions between embedding learning and logical inference in a principled framework. It enables an embedding model to learn simultaneously from labeled triples, unlabeled triples and soft rules in an iterative manner.
+
+1. **ConMask: Open-World Knowledge Graph Completion.**
+*Baoxu Shi, Tim Weninger.* AAAI 2018. [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16055/15901)
+	> ConMask is a novel open-world Knowledge Graph Completion model that uses relationship-dependent content masking, fully convolutional neural networks, and semantic averaging to extract relationship-dependent embeddings from the textual features of entities and relationships in KGs.
+	
+1. **Accurate Text-Enhanced Knowledge Graph Representation Learning.**
+*Bo An, Bo Chen, Xianpei Han, Le Sun.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-1068) 
+	> This paper proposes an accurate text-enhanced knowledge graph representation framework, which can utilize accurate textual information to enhance the knowledge representations of a triple, and can effectively handle the ambiguity of relations and entities through a mutual attention model between relation mentions and entity descriptions.
+
+1. **KBGAN: Adversarial Learning for Knowledge Graph Embeddings.**
+*Liwei Cai, William Yang Wang.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-1133) [code](https://github.com/cai-lw/KBGAN)
+	> KBGAN employs adversarial learning to generate useful negative training examples to improve knowledge graph embedding. This framework can be applied to a wide range of KGE models.
+
+1. **ConvKB: A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network.**
+*Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053)
+
+
 
