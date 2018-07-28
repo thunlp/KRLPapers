@@ -153,7 +153,19 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **ConMask: Open-World Knowledge Graph Completion.**
 *Baoxu Shi, Tim Weninger.* AAAI 2018. [paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16055/15901)
 	> ConMask is a novel open-world Knowledge Graph Completion model that uses relationship-dependent content masking, fully convolutional neural networks, and semantic averaging to extract relationship-dependent embeddings from the textual features of entities and relationships in KGs.
-	
+
+1. **TorusE: Knowledge Graph Embedding on a Lie Group.**
+*Takuma Ebisu, Ryutaro Ichise.* AAAI 2018. [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16227/15885)
+	> TorusE defines the principle of TransE on Lie group. A torus, which is one of the compact Lie groups, can be chosen for the embedding space to avoid regularization. TorusE is the first model that embeds objects on other than a real or complex vector space, and this paper is the first to formally discuss the problem of regularization of TransE.
+
+1. **On Multi-Relational Link Prediction with Bilinear Models.**
+*Yanjie Wang, Rainer Gemulla, Hui Li.* AAAI 2018. [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16900/16722) [code](https://dws.informatik.uni-mannheim.de/en/resources/software/tf/)
+	> The main goal of this paper is to explore the expressiveness of and the connections between various bilinear models for knowledge graph embedding proposed in the literature. This paper also provides evidence that relation-level ensembles of multiple bilinear models can achieve state-of-the art prediction performance.
+
+1. **Convolutional 2D Knowledge Graph Embeddings.**
+*Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel.* AAAI 2018. [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/17366/15884) [code](https://github.com/TimDettmers/ConvE)
+	> ConvE is a multi-layer convolutional network model for link prediction of KGs, and it reports state-of-the-art results for several established datasets. Unlike previous work which has focused on shallow, fast models that can scale to large knowledge graphs, ConvE uses 2D convolution over embeddings and multiple layers of nonlinear features to model KGs.
+
 1. **Accurate Text-Enhanced Knowledge Graph Representation Learning.**
 *Bo An, Bo Chen, Xianpei Han, Le Sun.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-1068) 
 	> This paper proposes an accurate text-enhanced knowledge graph representation framework, which can utilize accurate textual information to enhance the knowledge representations of a triple, and can effectively handle the ambiguity of relations and entities through a mutual attention model between relation mentions and entity descriptions.
