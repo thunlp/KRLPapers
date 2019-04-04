@@ -178,4 +178,22 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053)
 	> ConvKB applies the global relationships among same dimensional entries of the entity and relation embeddings, so that ConvKB generalizes the transitional characteristics in the transition-based embedding models. In addition, ConvKB is evaluated on WN18RR and FB15K237.
 
+1. **Improving Knowledge Graph Embedding Using Simple Constraints.**
+*Boyang Ding, Quan Wang, Bin Wang, Li Guo.* ACL 2018. [paper](https://aclweb.org/anthology/P18-1011) [code](https://github.com/iieir-km/ComplEx-NNE_AER)
+	> This paper investigates the potential of using very simple constraints to improve KG embedding. It examines non-negativity constraints on entity representations and approximate entailment constraints on relation representations.
 
+1. **Differentiating Concepts and Instances for Knowledge Graph Embedding.**
+*Xin Lv, Lei Hou, Juanzi Li, Zhiyuan Liu.* EMNLP 2018. [paper](http://aclweb.org/anthology/DB-1222) [code](https://github.com/davidlvxin/TransC)
+	> TransC proposes a novel knowledge graph embedding model by differentiating concepts and instances. Specifically, TransC encodes each concept in knowledge graph as a sphere and each instance as a vector in the same semantic space. This model can also handle the transitivity of isA relations much better than previous models.
+
+1. **SimplE Embedding for Link Prediction in Knowledge Graphs.**
+*Seyed Mehran Kazemi, David Poole.* NeurIPS 2018. [paper](https://www.cs.ubc.ca/~poole/papers/Kazemi_Poole_SimplE_NIPS_2018.pdf) [code](https://github.com/Mehran-k/SimplE)
+	> SimplE is a simple enhancement of CP (Canonical Polyadic) to allow the two embeddings of each entity to be learned dependently. The complexity of SimplE grows linearly with the size of embeddings. The embeddings learned through SimplE are interpretable, and certain types of background knowledge can be incorporated into these embeddings through weight tying.
+	
+1. **RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space.**
+*Zhiqing Sun, Zhi Hong Deng, Jian Yun Nie, Jian Tang.* ICLR 2019. [paper](https://openreview.net/pdf?id=HkgEQnRqYQ) [code](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding)
+	> RotatE infers various relation patterns including: symmetry/antisymmetry, inversion, and composition. Specifically, the RotatE model defines each relation as a rotation from the source entity to the target entity in the complex vector space. 
+	
+1. **TuckER: Tensor Factorization for Knowledge Graph Completion.**
+*Ivana Balazˇevic ́, Carl Allen, Timothy M. Hospedales.* ICML 2019. [paper](https://arxiv.org/pdf/1901.09590.pdf) [code](https://github.com/ibalazevic/TuckER)
+	> TuckER is a relatively simple but powerful linear model based on Tucker decomposition of the binary tensor representation of knowledge graph triples. TuckER is a fully expressive model, deriving the bound on its entity and relation embedding dimensionality for full expressiveness which is several orders of magnitude smaller than the bound of previous models ComplEx and SimplE. Besides, TuckER achieves the state-of-the-art performance.
