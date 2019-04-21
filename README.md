@@ -197,3 +197,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **TuckER: Tensor Factorization for Knowledge Graph Completion.**
 *Ivana Balazˇevic ́, Carl Allen, Timothy M. Hospedales.* ICML 2019. [paper](https://arxiv.org/pdf/1901.09590.pdf) [code](https://github.com/ibalazevic/TuckER)
 	> TuckER is a relatively simple but powerful linear model based on Tucker decomposition of the binary tensor representation of knowledge graph triples. TuckER is a fully expressive model, deriving the bound on its entity and relation embedding dimensionality for full expressiveness which is several orders of magnitude smaller than the bound of previous models ComplEx and SimplE. Besides, TuckER achieves the state-of-the-art performance.
+
+1. **CrossE: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs.**
+*Wen Zhang, Bibek Paudel, Wei Zhang* WSDM 2019. [paper](https://arxiv.org/pdf/1903.04750.pdf)
+	>  CrossE, a novel knowledge graph embedding which explicitly simulates crossover interactions. It not only learns one general embedding for each entity and relation as most previous methods do, but also generates multiple triple specific embeddings for both of them, named interaction embeddings.
