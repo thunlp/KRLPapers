@@ -22,7 +22,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 ### Journal and Conference papers:
 
 1. **RESCAL: A Three-Way Model for Collective Learning on Multi-Relational Data.**
-*Nickel Maximilian, Tresp Volker, Kriegel Hans-Peter.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
+*Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
     > RESCAL is a tensor factorization approach to knowledge representation learning, which is able to perform collective learning via the latent components of the factorization.
 
 1. **SE: Learning Structured Embeddings of Knowledge Bases.**
