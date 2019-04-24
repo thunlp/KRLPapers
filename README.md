@@ -22,7 +22,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 ### Journal and Conference papers:
 
 1. **RESCAL: A Three-Way Model for Collective Learning on Multi-Relational Data.**
-*Nickel Maximilian, Tresp Volker, Kriegel Hans-Peter.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
+*Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel.* ICML 2011. [paper](http://www.icml-2011.org/papers/438_icmlpaper.pdf) [code](https://github.com/thunlp/OpenKE)
     > RESCAL is a tensor factorization approach to knowledge representation learning, which is able to perform collective learning via the latent components of the factorization.
 
 1. **SE: Learning Structured Embeddings of Knowledge Bases.**
@@ -199,5 +199,5 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	> TuckER is a relatively simple but powerful linear model based on Tucker decomposition of the binary tensor representation of knowledge graph triples. TuckER is a fully expressive model, deriving the bound on its entity and relation embedding dimensionality for full expressiveness which is several orders of magnitude smaller than the bound of previous models ComplEx and SimplE. Besides, TuckER achieves the state-of-the-art performance.
 
 1. **CrossE: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs.**
-*Wen Zhang, Bibek Paudel, Wei Zhang* WSDM 2019. [paper](https://arxiv.org/pdf/1903.04750.pdf)
+*Wen Zhang, Bibek Paudel, Wei Zhang.* WSDM 2019. [paper](https://arxiv.org/pdf/1903.04750.pdf)
 	>  CrossE, a novel knowledge graph embedding which explicitly simulates crossover interactions. It not only learns one general embedding for each entity and relation as most previous methods do, but also generates multiple triple specific embeddings for both of them, named interaction embeddings.
