@@ -177,6 +177,10 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **ConvKB: A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network.**
 *Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053) [code](https://github.com/daiquocnguyen/ConvKB)
 	> ConvKB applies the global relationships among same dimensional entries of the entity and relation embeddings, so that ConvKB generalizes the transitional characteristics in the transition-based embedding models. In addition, ConvKB is evaluated on WN18RR and FB15K237.
+	
+1. **Modeling Relational Data with Graph Convolutional Networks.**
+*Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf) [code1](https://github.com/tkipf/relational-gcn) [code2](https://github.com/MichSchli/RelationPrediction)
+	> R-GCN applies Graph Convolutional Networks to relational Knowledge Bases creating a new encoder for the link predicion and entity classification tasks.
 
 1. **Improving Knowledge Graph Embedding Using Simple Constraints.**
 *Boyang Ding, Quan Wang, Bin Wang, Li Guo.* ACL 2018. [paper](https://aclweb.org/anthology/P18-1011) [code](https://github.com/iieir-km/ComplEx-NNE_AER)
