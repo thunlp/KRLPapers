@@ -175,7 +175,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	> KBGAN employs adversarial learning to generate useful negative training examples to improve knowledge graph embedding. This framework can be applied to a wide range of KGE models.
 
 1. **ConvKB: A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network.**
-*Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053)
+*Dai Quoc Nguyen, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Phung.* NAACL-HLT 2018. [paper](http://aclweb.org/anthology/N18-2053) [code](https://github.com/daiquocnguyen/ConvKB)
 	> ConvKB applies the global relationships among same dimensional entries of the entity and relation embeddings, so that ConvKB generalizes the transitional characteristics in the transition-based embedding models. In addition, ConvKB is evaluated on WN18RR and FB15K237.
 
 1. **Improving Knowledge Graph Embedding Using Simple Constraints.**
