@@ -199,7 +199,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	> RotatE infers various relation patterns including: symmetry/antisymmetry, inversion, and composition. Specifically, the RotatE model defines each relation as a rotation from the source entity to the target entity in the complex vector space. 
 	
 1. **TuckER: Tensor Factorization for Knowledge Graph Completion.**
-*Ivana Balazˇevic ́, Carl Allen, Timothy M. Hospedales.* ICML 2019. [paper](https://arxiv.org/pdf/1901.09590.pdf) [code](https://github.com/ibalazevic/TuckER)
+*Ivana Balazˇevic ́, Carl Allen, Timothy M. Hospedales.* arxiv 2019. [paper](https://arxiv.org/pdf/1901.09590.pdf) [code](https://github.com/ibalazevic/TuckER)
 	> TuckER is a relatively simple but powerful linear model based on Tucker decomposition of the binary tensor representation of knowledge graph triples. TuckER is a fully expressive model, deriving the bound on its entity and relation embedding dimensionality for full expressiveness which is several orders of magnitude smaller than the bound of previous models ComplEx and SimplE. Besides, TuckER achieves the state-of-the-art performance.
 
 1. **CrossE: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs.**
