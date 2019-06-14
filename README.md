@@ -208,4 +208,4 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 
 1. **Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs.**
 *Deepak Nathani, Jatin Chauhan, Charu Sharma, Manohar Kaul.* ACL 2019. [paper](https://arxiv.org/pdf/1906.01195.pdf) [code](https://github.com/deepakn97/relationPrediction)
-	> A novel attention-based feature embedding that captures both entity and relation features in any given entity’s neighborhood. This architecture is an encoder-decoder model where our generalized graph attention model and ConvKB play the roles of an encoder and decoder.
+	> This is a novel attention-based feature embedding model that captures both entity and relation features in any given entity’s neighborhood. This architecture is an encoder-decoder model where the generalized graph attention model and ConvKB play the roles of encoder and decoder respectively.
