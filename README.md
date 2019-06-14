@@ -205,3 +205,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **CrossE: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs.**
 *Wen Zhang, Bibek Paudel, Wei Zhang.* WSDM 2019. [paper](https://arxiv.org/pdf/1903.04750.pdf)
 	>  CrossE, a novel knowledge graph embedding which explicitly simulates crossover interactions. It not only learns one general embedding for each entity and relation as most previous methods do, but also generates multiple triple specific embeddings for both of them, named interaction embeddings.
+
+1. **Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs.**
+*Deepak Nathani, Jatin Chauhan, Charu Sharma, Manohar Kaul.* ACL 2019. [paper](https://arxiv.org/pdf/1906.01195.pdf) [code](https://github.com/deepakn97/relationPrediction)
+	> This is a novel attention-based feature embedding model that captures both entity and relation features in any given entity’s neighborhood. This architecture is an encoder-decoder model where the generalized graph attention model and ConvKB play the roles of encoder and decoder respectively.
