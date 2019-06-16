@@ -209,3 +209,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs.**
 *Deepak Nathani, Jatin Chauhan, Charu Sharma, Manohar Kaul.* ACL 2019. [paper](https://arxiv.org/pdf/1906.01195.pdf) [code](https://github.com/deepakn97/relationPrediction)
 	> This is a novel attention-based feature embedding model that captures both entity and relation features in any given entity’s neighborhood. This architecture is an encoder-decoder model where the generalized graph attention model and ConvKB play the roles of encoder and decoder respectively.
+
+1. **RSN: Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs.**
+*Lingbing Guo, Zequn Sun, Wei Hu.* ICML 2019. [paper](http://proceedings.mlr.press/v97/guo19c/guo19c.pdf)  [supplementary](http://proceedings.mlr.press/v97/guo19c/guo19c-supp.pdf) [code](https://github.com/nju-websoft/RSN) 
+	> RSNs integrate recurrent neural networks with residual learning to efficiently capture the long-term relational dependencies of entities within and between KGs. We also design an end-to-end framework to support RSNs on two tasks link prediction and entity alignment. 
