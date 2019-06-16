@@ -217,3 +217,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **DihEdral: Relation Embedding with Dihedral Group in Knowledge Graph.**
 *Canran Xu, Ruijiang Li.* ACL 2019. [paper](https://arxiv.org/abs/1906.00687)
 	> DihEdral models the relation in knowledge graphs with the representation of dihedral group. It is a bilinear model and supports relation symmetry, skew-symmetry, inversion, abelian composition and non-abelian composition due to the properties of dihedral group. 
+
+1. **CapsE:A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization.**
+*Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Q. Phung.* NAACL-HIT 2019. [paper](https://www.aclweb.org/anthology/N19-1226) [code](https://github.com/daiquocnguyen/CapsE)
+	> CapsE employs capsule network to model the entries in the triple at the same dimension. The high-level hypothesis is that each capsule accounts for capture variants of a relation-specific attribute of the entities. The length of the final vector serves as the plausibility score of the triple.
