@@ -213,3 +213,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **RSN: Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs.**
 *Lingbing Guo, Zequn Sun, Wei Hu.* ICML 2019. [paper](http://proceedings.mlr.press/v97/guo19c/guo19c.pdf)  [supplementary](http://proceedings.mlr.press/v97/guo19c/guo19c-supp.pdf) [code](https://github.com/nju-websoft/RSN) 
 	> RSNs integrate recurrent neural networks with residual learning to efficiently capture the long-term relational dependencies of entities within and between KGs. We also design an end-to-end framework to support RSNs on two tasks link prediction and entity alignment. 
+
+1. **DihEdral: Relation Embedding with Dihedral Group in Knowledge Graph.**
+*Canran Xu, Ruijiang Li.* ACL 2019. [paper](https://arxiv.org/abs/1906.00687)
+	> DihEdral models the relation in knowledge graphs with the representation of dihedral group. It is a bilinear model and supports relation symmetry, skew-symmetry, inversion, abelian composition and non-abelian composition due to the properties of dihedral group. 
