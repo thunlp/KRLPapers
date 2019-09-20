@@ -216,8 +216,20 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 
 1. **DihEdral: Relation Embedding with Dihedral Group in Knowledge Graph.**
 *Canran Xu, Ruijiang Li.* ACL 2019. [paper](https://arxiv.org/abs/1906.00687)
-	> DihEdral models the relation in knowledge graphs with the representation of dihedral group. It is a bilinear model and supports relation symmetry, skew-symmetry, inversion, abelian composition and non-abelian composition due to the properties of dihedral group. 
+    > DihEdral models the relation in knowledge graphs with the representation of dihedral group. It is a bilinear model and supports relation symmetry, skew-symmetry, inversion, abelian composition and non-abelian composition due to the properties of dihedral group. 
 
 1. **CapsE:A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization.**
 *Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Q. Phung.* NAACL-HIT 2019. [paper](https://www.aclweb.org/anthology/N19-1226) [code](https://github.com/daiquocnguyen/CapsE)
-	> CapsE employs capsule network to model the entries in the triple at the same dimension. The high-level hypothesis is that each capsule accounts for capture variants of a relation-specific attribute of the entities. The length of the final vector serves as the plausibility score of the triple.
+    > CapsE employs capsule network to model the entries in the triple at the same dimension. The high-level hypothesis is that each capsule accounts for capture variants of a relation-specific attribute of the entities. The length of the final vector serves as the plausibility score of the triple.
+
+1. **CaRe: Open Knowledge Graph Embeddings**
+*Swapnil Gupta, Sreyash Kenkre, Partha Talukdar.*  EMNLP-IJCNLP 2019.[paper](http://talukdar.net/papers/CaRe_EMNLP2019.pdf) [code](https://github.com/malllabiisc/CaRE)
+	> CaRe focuses on canonicalization of OpenKGs. The model infuses canonicalization in-formation combined with the neighborhood graph structure to learn rich representations of NPs. And it captures the semantic similarity of RPs.
+
+1. **TuckER: Tensor Factorization for Knowledge Graph Completion**
+*Ivana Balazevic, Carl Allen, Timothy M. Hospedales.* EMNLP-IJCNLP 2019.[paper](https://arxiv.org/abs/1901.09590) [code](https://github.com/ibalazevic/TuckER)
+	>TuchER is a relatively straightforward linear model for link prediction on knowledge graphs, based on the Tucker decomposition of a binary tensor of known facts. But this model has ability to perform multi-task learning across relations and if fully expressive.
+    
+
+
+
