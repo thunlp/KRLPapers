@@ -226,10 +226,5 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Swapnil Gupta, Sreyash Kenkre, Partha Talukdar.*  EMNLP-IJCNLP 2019.[paper](http://talukdar.net/papers/CaRe_EMNLP2019.pdf) [code](https://github.com/malllabiisc/CaRE)
 	> CaRe focuses on canonicalization of OpenKGs. The model infuses canonicalization in-formation combined with the neighborhood graph structure to learn rich representations of NPs. And it captures the semantic similarity of RPs.
 
-1. **TuckER: Tensor Factorization for Knowledge Graph Completion**
-*Ivana Balazevic, Carl Allen, Timothy M. Hospedales.* EMNLP-IJCNLP 2019.[paper](https://arxiv.org/abs/1901.09590) [code](https://github.com/ibalazevic/TuckER)
-	>TuchER is a relatively straightforward linear model for link prediction on knowledge graphs, based on the Tucker decomposition of a binary tensor of known facts. But this model has ability to perform multi-task learning across relations and if fully expressive.
-    
-
 
 
