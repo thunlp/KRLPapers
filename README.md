@@ -182,6 +182,10 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf) [code1](https://github.com/tkipf/relational-gcn) [code2](https://github.com/MichSchli/RelationPrediction)
 	> R-GCN applies Graph Convolutional Networks to relational Knowledge Bases creating a new encoder for the link predicion and entity classification tasks.
 
+1. **Canonical Tensor Decomposition for Knowledge Base Completion.**
+*Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski.* ICML 2018. [paper]() [code](https://github.com/facebookresearch/kbc)
+	> This paper formalizes knowledge graph completion as a 3rd-order binary tensor completion problem, and introduces a novel regularizer based on tensor nuclear p-norms to enhance knowledge embedding models.
+
 1. **Improving Knowledge Graph Embedding Using Simple Constraints.**
 *Boyang Ding, Quan Wang, Bin Wang, Li Guo.* ACL 2018. [paper](https://aclweb.org/anthology/P18-1011) [code](https://github.com/iieir-km/ComplEx-NNE_AER)
 	> This paper investigates the potential of using very simple constraints to improve KG embedding. It examines non-negativity constraints on entity representations and approximate entailment constraints on relation representations.
