@@ -230,5 +230,11 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Swapnil Gupta, Sreyash Kenkre, Partha Talukdar.*  EMNLP-IJCNLP 2019.[paper](http://talukdar.net/papers/CaRe_EMNLP2019.pdf) [code](https://github.com/malllabiisc/CaRE)
 	> CaRe focuses on canonicalization of OpenKGs. The model infuses canonicalization in-formation combined with the neighborhood graph structure to learn rich representations of NPs. And it captures the semantic similarity of RPs.
 
+1. **InteractE: Improving Convolution-based Knowledge Graph.**
+*Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Nilesh Agrawal, Partha Talukdar.* AAAI 2020. [paper](https://arxiv.org/pdf/1911.00219.pdf) [code](https://github.com/malllabiisc/InteractE)
+	> In this paper, the authors analyze how increasing the number of these interactions affects link prediction performance, and utilize the observations to propose InteractE. InteractE is based on three key ideas – feature permutation, a novel feature reshaping, and circular convolution. 
 
-
+1. **Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction.**
+*Zhanqiu Zhang, Jianyu Cai, Yongdong Zhang, Jie Wang.* AAAI 2020. [paper](https://arxiv.org/pdf/1911.09419.pdf) [code](https://github.com/MIRALab-USTC/KGE-HAKE)
+	> This paper proposes a novel knowledge graph embedding model—namely, Hierarchy-Aware Knowledge Graph Embedding (HAKE). HAKE maps entities into the polar coordinate system to model semantic hierarchies, which are common in
+real-world applications. HAKE is inspired by the fact that concentric circles in the polar coordinate system can naturally reflect the hierarchy. 
