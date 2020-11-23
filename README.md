@@ -238,3 +238,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 *Zhanqiu Zhang, Jianyu Cai, Yongdong Zhang, Jie Wang.* AAAI 2020. [paper](https://arxiv.org/pdf/1911.09419.pdf) [code](https://github.com/MIRALab-USTC/KGE-HAKE)
 	> This paper proposes a novel knowledge graph embedding model—namely, Hierarchy-Aware Knowledge Graph Embedding (HAKE). HAKE maps entities into the polar coordinate system to model semantic hierarchies, which are common in
 real-world applications. HAKE is inspired by the fact that concentric circles in the polar coordinate system can naturally reflect the hierarchy. 
+
+1. **Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction.**
+*Jinheon Baek, Dong Bok Lee, Sung Ju Hwang.* NeurIPS 2020. [paper](https://arxiv.org/pdf/2006.06648.pdf) [code](https://github.com/JinheonBaek/GEN)
+	> This paper tackles a realistic problem setting of few-shot out-of-graph link prediction, aiming to perform link prediction not only between seen and unseen entities but also among unseen entities. To tackle this problem, they propose a novel meta-learning framework, Graph Extrapolation Network (GEN), which meta-learns the node embeddings for unseen entities, to obtain low error on link prediction for both seen-to-unseen and unseen-to-unseen cases.
