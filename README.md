@@ -19,6 +19,9 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 1. **Knowledge Graph Embedding: A Survey of Approaches and Applications.**
 *Quan Wang, Zhendong Mao, Bin Wang, Li Guo.* TKDE 2017.  [paper](http://ieeexplore.ieee.org/abstract/document/8047276/)
 
+1. **A Survey on Knowledge Graphs:Representation, Acquisition and Applications.**
+*Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu.* IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, 2021. [paper](https://arxiv.org/pdf/2002.00388.pdf)
+
 ### Journal and Conference papers:
 
 1. **RESCAL: A Three-Way Model for Collective Learning on Multi-Relational Data.**
