@@ -183,7 +183,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	> R-GCN applies Graph Convolutional Networks to relational Knowledge Bases creating a new encoder for the link predicion and entity classification tasks.
 
 1. **Canonical Tensor Decomposition for Knowledge Base Completion.**
-*Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski.* ICML 2018. [paper]() [code](https://github.com/facebookresearch/kbc)
+*Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski.* ICML 2018. [paper](http://proceedings.mlr.press/v80/lacroix18a.html) [code](https://github.com/facebookresearch/kbc)
 	> This paper formalizes knowledge graph completion as a 3rd-order binary tensor completion problem, and introduces a novel regularizer based on tensor nuclear p-norms to enhance knowledge embedding models.
 
 1. **Improving Knowledge Graph Embedding Using Simple Constraints.**
@@ -191,7 +191,7 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	> This paper investigates the potential of using very simple constraints to improve KG embedding. It examines non-negativity constraints on entity representations and approximate entailment constraints on relation representations.
 
 1. **Differentiating Concepts and Instances for Knowledge Graph Embedding.**
-*Xin Lv, Lei Hou, Juanzi Li, Zhiyuan Liu.* EMNLP 2018. [paper](http://aclweb.org/anthology/DB-1222) [code](https://github.com/davidlvxin/TransC)
+*Xin Lv, Lei Hou, Juanzi Li, Zhiyuan Liu.* EMNLP 2018. [paper](https://arxiv.org/pdf/1811.04588.pdf) [code](https://github.com/davidlvxin/TransC)
 	> TransC proposes a novel knowledge graph embedding model by differentiating concepts and instances. Specifically, TransC encodes each concept in knowledge graph as a sphere and each instance as a vector in the same semantic space. This model can also handle the transitivity of isA relations much better than previous models.
 
 1. **SimplE Embedding for Link Prediction in Knowledge Graphs.**
